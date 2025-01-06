@@ -19,6 +19,24 @@
             "dependencies": [""]
         },
         "project1": {
+            "name": "HUE&VIEW",
+            "type": "web app",
+            "category": "UI/UX",
+            "description": "HUE&VIEW: A streamlined & user-friendly tool designed to help you select colors & font themes for your upcoming UI projects. By entering values for colors, font families & other configs, you can easily visualize if a theme suits your project without using complex graphic design software & mockups creation, making theme selection quick and efficient.",
+            "theme_key":"theme1",
+            "techStack": {
+                "frontEnd": "ReactJs",
+                "backEnd": "PHP",
+                "dataBase": "MySQL"
+            },
+            "features": {
+                "authentication": false,
+                "notifications": false,
+                "offline_support": true
+            },
+            "dependencies": ["axios","font awesome"]
+        },
+        "project2": {
             "name": "coreven's task-management",
             "type": "android app",
             "category": "task management",
@@ -34,14 +52,7 @@
                 "notifications": true,
                 "offline_support": true
             },
-            "dependencies": [
-                "react-native", 
-                "axios", 
-                "android-studio", 
-                "react-navigation",
-                "redux",
-                "expo"
-            ]
+            "dependencies": ["react-native", "axios", "android-studio", "react-navigation","redux","expo"]
         },
         
         "projects_configOptions": {
@@ -55,7 +66,7 @@
                     "backEnd": ["Node.js", "PHP", "Django", "Flask"],
                     "dataBase": ["MySQL", "MongoDB", "MariaDB", "PostgreSQL"]
                 },
-                "dependencies": ["Google Auth", "OpenAI Tools", "Google Maps", "Stripe","axios","material-ui"]
+                "dependencies": ["Google Auth", "OpenAI Tools", "Google Maps", "Stripe","axios","material-ui","Font Awesome"]
             }
         }
     },
