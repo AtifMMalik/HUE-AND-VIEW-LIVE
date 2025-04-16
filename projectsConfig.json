@@ -470,6 +470,38 @@
                 },
                 "whiteTones": ["#ffffff", "#e1f5fe", "#cfd8dc"]
             }
+        },
+        "green dark": {
+            "description": "...",
+            "font_family": "Roboto, sans-serif",
+            "colors": {
+                "primary": "#30C442",                    
+                "secondary": "#28A73A",                  
+                "tertiary": "#4CDD5C",                   
+                "accent": "#16A34A",                     
+                "hue": "#22C55E",                        
+
+                "text": {
+                    "dark": "#d1d5db",                   
+                    "light": "#ffffff",
+                    "gray": "#9ca3af"
+                },
+                "background": {
+                    "dark": "#0f172a",                   
+                    "light": "#1e293b"                   
+                },
+                "buttons": {
+                    "default": "#30C442",
+                    "hover": "#28A73A",
+                    "active": "#1E8F32"
+                },
+                "links": {
+                    "default": "#4CDD5C",
+                    "hover": "#30C442",
+                    "visited": "#22C55E"
+                },
+                "whiteTones": ["#ffffff", "#f1f5f9", "#e2e8f0"]
+            }
         }
     }    
 }
